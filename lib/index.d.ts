@@ -27,6 +27,7 @@ declare class DiffViewer extends React.Component<IReactDiffViewerProps, IReactDi
         styles: PropTypes.Requireable<object>;
         hideLineNumbers: PropTypes.Requireable<boolean>;
         highlightLines: PropTypes.Requireable<string[]>;
+        reverse: PropTypes.Requireable<boolean>;
     };
     private splitView;
     private inlineView;
